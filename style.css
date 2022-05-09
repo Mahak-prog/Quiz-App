@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  overflow: hidden;
+  margin: 0;
+}
+h1 {
+  font-family: "Gabriola", serif;
+  text-align: center;
+  font-family: cursive;
+  font-style: italic;
+}
+ul {
+  list-style: none;
+}
+li {
+  font-family: "Cambria", serif;
+  font-size: 1.5em;
+}
+input[type="radio"] {
+  border: 0px;
+  width: 20px;
+  height: 2em;
+}
+p {
+  font-family: "Gabriola", serif;
+}
+/* Quiz Classes */
+.quizContainer {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 75%;
+  margin: auto;
+  padding-top: 5px;
+  /*-moz-box-shadow: 10px 10px 5px #888;
+-webkit-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;*/
+  position: relative;
+}
+.quizcontainer #quiz1 {
+  text-shadow: 1px 1px 2px orange;
+  font-family: "Georgia", Arial, sans-serif;
+}
+.nextButton {
+  box-shadow: 3px 3px 5px #888;
+  border-radius: 6px;
+  /* width: 150px;*/
+  height: 40px;
+  text-align: center;
+  background-color: #8e44ad;
+
+  /*clear: both;*/
+  color: #fff;
+  font-family: "Gabriola", serif;
+  position: relative;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+
+  padding-top: 5px;
+  float: right;
+  right: 7%;
+}
+.nextbutton:hover {
+  background-color: #732d91;
+}
+.nextbutton:focus {
+  outline: none;
+  background-color: #5e3370;
+}
+.preButton {
+  box-shadow: 3px 3px 5px #888;
+  border-radius: 6px;
+  /*width: 150px;*/
+  height: 40px;
+  text-align: center;
+  background-color: #8e44ad;
+
+  /*clear: both;*/
+  color: #fff;
+  font-family: "Gabriola", serif;
+  position: relative;
+  margin: auto;
+  font-size: 25px;
+  font-weight: bold;
+
+  padding-top: 5px;
+  float: left;
+  left: 7%;
+}
+.prebutton:hover {
+  background-color: #732d91;
+}
+.prebutton:focus {
+  outline: none;
+  background-color: #5e3370;
+}
+.question {
+  font-family: "Century", serif;
+  font-size: 1.5em;
+
+  font-weight: bold;
+  width: 100%;
+  height: auto;
+  margin: auto;
+  border-radius: 6px;
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.quizMessage {
+  background-color: peachpuff;
+
+  border-radius: 6px;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+
+  font-family: "Gabriola", serif;
+  color: red;
+  position: absolute;
+  top: 80%;
+  left: 40%;
+}
+.choiceList {
+  font-family: "Arial", serif;
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+}
+.result {
+  width: 40%;
+  height: auto;
+  border-radius: 6px;
+  background-color: linen;
+  margin: auto;
+  color: green;
+  text-align: center;
+  font-size: 25px;
+
+  font-family: "Verdana", serif;
+  font-weight: bold;
+  position: absolute;
+  top: 90%;
+  left: 30%;
+}
+/* End of Quiz Classes */
